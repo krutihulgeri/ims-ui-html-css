@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #inventory
+        {
+            background-color: blue;
+            font-size: 30px;
+            font-weight: bolder;
+            padding-left: 20px;
+            padding: 10px;
+        }
+        .dashboard
+        {
+            background-color: grey;
+            margin-right: 85%;
+            line-height: 81px;
+            padding-left: 20px;
+        }
+        div a
+        {
+            text-decoration: none;
+            color: black;
+        }
+        #New
+        {
+            position: absolute;
+            left: 15%;
+            top: 18px;
+            font-size: 25px;
+            font-weight: bolder;
+            padding: 5px;
+            border-bottom: 3px solid grey;
+            width: 84%;
+        }
+        #home
+        {
+            position: absolute;
+            left: 80%;
+            top: 18px;
+            padding: 5px;
+        }
+        #member
+        {
+            position: absolute;
+            left: 85%;
+            top: 18px;
+            padding: 5px;
+        }
+        .firstrow
+        {
+            position: absolute;
+            left: 20%;
+            top: 65px;
+            padding: 10px;
+        }
+        .secondrow
+        {
+            position: absolute;
+            left: 60%;
+            top: 65px;
+            padding: 10px;
+        }
+        .form-element
+        {
+            padding: 10px;
+        }
+        .inputs
+        {
+            background-color: lightgrey;
+            padding: 10px;
+            outline: none;
+            border: none;
+        }
+        .sb
+        {
+            position: absolute;
+            left: 21%;
+            top: 65%;
+            padding: 10px;
+        }
+        .save
+        {
+            background-color: blue;
+            color: white;
+            width: 100px;
+            height: 40px;
+        }
+        .back
+        {
+            background-color: yellow;
+            color: white;
+            width: 100px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="dashboard">
+            <div><a href=""> Items </a></div>
+            <div><a href=""> Category </a></div>
+            <div><a href=""> Warehouse </a></div>
+            <div><a href=""> Elements </a></div>
+            <div><a href=""> Products</a></div>
+            <div><a href=""> Orders </a></div>
+            <div><a href=""> Permission </a></div>
+            <div><a href="logout.html"> Logout </a></div>
+        </div>
+        <div id="New"> Add New Member </div>
+        <div id="home"><a href=""> Home </a></div>
+        <div id="member"><a href=""> member </a></div>
+        <div class="login">
+            <div class="firstrow">
+                <div class="form-element">
+                    <div><label for=""> First Name </label></div>
+                    <div><input type="text" placeholder="First name" class="inputs" /></div>
+                </div>
+                <div class="form-element">
+                    <div><label for=""> Username </label></div>
+                    <div><input type="text" placeholder="Username" class="inputs" /></div>
+                </div>
+                <div class="form-element">
+                    <div><label for=""> Password </label></div>
+                    <div><input type="password" placeholder="Password" class="inputs" /></div>
+                </div>
+                <div class="form-element">
+                    <div><label for=""> Phone </label></div>
+                    <div><input type="text" placeholder="Phone" class="inputs" /></div>
+                </div>
+            </div>
+        </div>
+        <div class="secondrow">
+            <div class="form-element">
+                <div><label for=""> Last name </label></div>
+                <div><input type="text" placeholder="Last name" class="inputs" /></div>
+            </div>
+            <div class="form-element">
+                <div><label for=""> Email </label></div>
+                <div><input type="email" placeholder="Email" class="inputs" /></div>
+            </div>
+            <div class="form-element">
+                <div><label for=""> Confirm Password </label></div>
+                <div><input type="text" placeholder="Confirm password" class="inputs" /></div>
+            </div>
+            <div class="form-element">
+                <div><label for=""> Gender </label></div>
+                <div>
+                    <input type="radio" />
+                    <label for=""> Male </label>
+                    <input type="radio" />
+                    <label for=""> Female </label>
+                </div>
+            </div>
+        </div>
+        <div class="sb">
+            <span><button class="save"><a href=""> Save </a></button></span>
+            <span><button class="back"><a href=""> Back </a></button></span>
+        </div>
+    </div>
+</body>
+</html>

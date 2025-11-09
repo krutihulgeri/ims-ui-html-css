@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            margin: 0;
+        }
+        #inventory
+        {
+            background-color: blue;
+            font-size: 30px;
+            font-weight: bolder;
+            padding-left: 20px;
+            padding: 10px;
+        }
+        .dashboard
+        {
+            background-color: grey;
+            margin-right: 85%;
+            line-height: 73px;
+            padding-left: 20px;
+        }
+        .items
+        {
+            position: absolute;
+            left: 250px;
+            top: 60px;
+        }
+        #manage
+        {
+            font-size: 20px;
+            padding: 5px;
+        }
+        .add
+        {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            width: 100%;
+        }
+        .isa
+        {
+            position: absolute;
+            left: 10px;
+            top: 100px;
+        }
+        table
+        {
+            width: 300%;
+            padding: 20px;
+            line-height: 400%;
+        }
+        .active
+        {
+            background-color: green;
+            padding: 10px;
+        }
+        th,td
+        {
+            text-align: center;
+        }
+        th
+        {
+            border-bottom: 1px solid grey;
+        }
+        .edit
+        {
+            background-color: yellow;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .delete
+        {
+            background-color: red;
+            padding: 10px;
+            text-decoration: none;
+        }
+        div a
+        {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="inventory"> Inventory </div>
+        <div class="dashboard">
+            <div><a href=""> Items </a></div>
+            <div><a href="category.html"> Category </a></div>
+            <div><a href=""> Warehouse </a></div>
+            <div><a href="""> Elements </a></div>
+            <div><a href=""> Orders </a></div>
+            <div><a href=""> Products</a></div>
+            <div><a href=""> Permission </a></div>
+            <div><a href=""> Logout </a></div>
+        </div>
+        <div class="items">
+            <div id="manage"> Manage Items </div>
+            <div>
+                <input type="submit" name="additem" value="Add Item" class="add" />
+            </div>
+            <div class="isa">
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Item </th>
+                            <th> Status </th>
+                            <th> Action </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="button" value="Computer" /></td>
+                            <td><input type="submit" value="Active" class="active"></td>
+                            <td colspan="2">
+                                <a href="" class="edit"> Edit </a>
+                                <a href="" class="delete"> Delete </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Smartphone"/></td>
+                            <td><input type="submit" value="Active" class="active"></td>
+                            <td colspan="2">
+                                <a href="" class="edit"> Edit </a>
+                                <a href="" class="delete"> Delete </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Laptop" /></td>
+                            <td><input type="submit" value="Active" class="active"></td>
+                            <td colspan="2">
+                                <a href="" class="edit"> Edit </a>
+                                <a href="" class="delete"> Delete </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Accessories" /></td>
+                            <td><input type="submit" value="Active" class="active"></td>
+                            <td colspan="2">
+                                <a href="" class="edit"> Edit </a>
+                                <a href="" class="delete"> Delete </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Others" /></td>
+                            <td><input type="submit" value="Active" class="active"></td>
+                            <td colspan="2">
+                                <a href="" class="edit"> Edit </a>
+                                <a href="" class="delete"> Delete </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
